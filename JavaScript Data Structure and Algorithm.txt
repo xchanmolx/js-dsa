@@ -1,8 +1,42 @@
 The Coding Interview Bootcamp Algorithms + Data Structures
-2. A Touch of Setup
-Video: 2. Environment Setup : 00:46
+4. Palindromes
+Video: 1. Palindromes : 00:00
 
 npm install -g jest
+jest fib --watch
+node inspect index.js
+c or cont
+repl
+
+debug
+cd to folder where the excersise
+put 'debugger;' on a method then run debugger
+node inspect index.js
+c or cont
+repl
+type variable
+type the code inside a method
+exit
+
+Debugger Steps
+> Add a 'debugger' statement in your function
+> Call the function manually
+> At the terminal, run 'node inspect index.js'
+> To continue execution of the file, press 'c' then 'enter'
+> To launch a 'repl' session, type 'repl' then 'enter'
+> To exit the 'repl', press Control + C
+
+String Reversal - Algorithm, Solution #1
+> Turn 'str' into an array
+> Call 'reverse' method on the array
+> Join the array back into a string
+> Return the result
+
+String Reversal - Algorithm, Solution #2
+> Create an empty string called 'reversed'
+> for each character in the provided string
+> Take the character and add it to the start of 'reversed'
+> Return the variable 'reversed'
 
 -----------------------------------------------------------------------------------------------------------
 
